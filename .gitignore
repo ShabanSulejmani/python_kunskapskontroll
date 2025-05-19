@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtuell miljö
+.venv/
+venv/
+
+# IDE / Editor
+.idea/
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Mac & Windows systemfiler
+.DS_Store
+Thumbs.db
+
+# Logg- och tempfiler
+*.log
+*.tmp
+
+# Miljöfiler
+.env
