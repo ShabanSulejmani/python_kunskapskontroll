@@ -6,6 +6,5 @@ import numpy as np
 
 st.title("Diamantanalys för Guldfynd")
 
-
 df = pd.read_csv("diamonds.csv")
 
