@@ -6,7 +6,7 @@ import time
 from datetime import datetime, timedelta
 import plotly.express as px
 import plotly.graph_objects as go
-from plotly.subplots import make_subplots
+
 
 # Konfigurera sidan
 st.set_page_config(
