@@ -282,6 +282,7 @@ fig_pie = px.pie(
 )
 st.plotly_chart(fig_pie, use_container_width=True)
 
+
 # Expandable insikter och rekommendationer
 with st.expander("🎯 Viktiga insikter"):
     st.markdown(f"""
@@ -290,10 +291,12 @@ with st.expander("🎯 Viktiga insikter"):
     - **Prisvariabilitet**: Större karat-intervall visar högre prisvariation och risk
     - **Marknadsfördelning**: {pie_variable.capitalize()} visar populära kategorier för lagerplanering
     - **Realtidstrend**: Prisrörelser följer marknadsvolatilitet
+    - **Premium kvalitet (Ideal cut, VS+ clarity)** motiverar 15-25% prishöjning
+    - **Riskhantering**: Var försiktig med stora karat (>2) p.g.a. hög volatilitet
     """)
 
 with st.expander("💡 Rekommendationer för Guldfynd"):
-    st.markdown("""
+    st.markdown(f"""
     ### Lagerstrategi
     - **Fokusområde**: 0.5–1.5 karat med Ideal/Premium-slipning
     - **Kvalitet**: Prioritera VS1-IF klarhet för bästa värde
@@ -310,6 +313,8 @@ with st.expander("💡 Rekommendationer för Guldfynd"):
     - **Prisvärt segment**: 0.5–1.0 karat för vardagssmycken
     - **Exklusivt segment**: >1.5 karat för speciella tillfällen
     """)
+
+ 
 
 # Footer med realtidsinfo
 st.markdown("---")
